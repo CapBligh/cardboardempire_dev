@@ -11,7 +11,7 @@ sections:
   label: Pages
   create: documents
   match: "*.md"
-  new_doc_ext: ".md"
+  new_doc_ext: md
   templates:
   - pages
 - type: directory
@@ -23,6 +23,10 @@ sections:
   - post
 - type: heading
   label: Globals
+- type: document
+  path: src/_data/navigation.json
+  label: Navigation
+  match: "**/*"
 - type: document
   path: src/_data/tokens.json
   label: Theme settings
