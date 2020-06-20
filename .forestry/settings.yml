@@ -11,9 +11,9 @@ sections:
   label: Pages
   create: documents
   match: "*.md"
-  new_doc_ext: md
+  new_doc_ext: ''
   templates:
-  - post
+  - pages
 - type: directory
   path: src/posts
   label: Posts
