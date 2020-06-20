@@ -13,7 +13,7 @@ sections:
   match: "*.md"
   new_doc_ext: md
   templates:
-  - pages
+  - post
 - type: directory
   path: src/posts
   label: Posts
